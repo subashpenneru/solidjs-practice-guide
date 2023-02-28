@@ -1,6 +1,6 @@
 import { createEffect, createSignal, For } from 'solid-js';
 import { createStore, produce } from 'solid-js/store';
-import { useCounter } from './context/counter';
+import { useCounter } from '../context/counter';
 
 function Todos() {
   const [count] = useCounter();

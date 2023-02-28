@@ -1,4 +1,4 @@
-import { useCounter } from './context/counter';
+import { useCounter } from '../context/counter';
 
 export default function Nested() {
   const [count, { increment, decrement }] = useCounter();

@@ -2,8 +2,8 @@ import { createEffect, createSignal, onMount } from 'solid-js';
 
 import { selected } from './App.module.css';
 import { CounterProvider } from './context/counter';
-import Nested from './Nested';
-import Todos from './Todos';
+import Nested from './components/Nested';
+import Todos from './components/Todos';
 
 function App() {
   const [toggle, setToggle] = createSignal(false);
